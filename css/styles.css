@@ -1,0 +1,68 @@
+body {
+  background: none;
+  color: #69707a;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.display-4{
+	/*color: red;*/
+}
+
+.image_bg{
+	/*display: inline-block;*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url("../img/abstractBG.jpg");
+}
+
+.jumbotron{
+	background: none;
+	/*background-color: black;*/
+	/*width: 100%;*/
+	/*display: inline-block;*/
+	/*background-size: 100% 100%;*/
+	/*background-repeat: no-repeat;*/
+	/*background-image: url("../img/abstractBG.jpg");*/
+}
+
+.icon_container{
+	/*display: block;*/
+	/*white-space:pre;*/
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+}
+
+
+.img-width{
+	width: 100%;
+}
+
+.topnav{
+	position: 0px;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	overflow: hidden;
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: "Arial", Arial, sans-serif;
+}
+
+.topnav a:hover{
+	background: gray;
+	color: black;
+}
+
+.topnav a.active{
+	background-color: green;
+	color: white;
+}
